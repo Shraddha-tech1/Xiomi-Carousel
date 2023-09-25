@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Lunar -  Free Bootstrap Modal and Popups  </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.moengage.com/inapp/html-template4/assets/bootstrap/css/bootstrap.min.css">
+    <!-- Lunar CSS -->
+    <link rel="stylesheet" href="https://cdn.moengage.com/inapp/html-template4/assets/css/lunar.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdn.moengage.com/inapp/html-template4/assets/css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://cdn.moengage.com/inapp/html-template4/assets/img/lunar.png"/>
+    <link rel="icon" href="https://cdn.moengage.com/inapp/html-template4/assets/img/lunar.png" type="image/png" sizes="16x16">
+ <style>
+      .slide1{background:#90EE90;}
+      .slide2{background:#008080;}
+      .slide3{background:#0448eb;}
+      .slide4{background:#000000;}
+      .slide5{background:#EE9323;}
+      
+      
+      .slide1 h3{color:#0448eb;}
+      .slide1 p{color:#000;}
+      .carousel-item  img{border-radius:30px;}
+     .modal-dialog {
+    max-width: 395px;
+    margin: 1.75rem auto;
+}
+    </style>
+    
+</head>
+<body class="modal-open">
+    <!-- Modal -->
+    <div class="modal show" id="demoModal"  tabindex="-1" role="dialog"
+         aria-labelledby="demoModal" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered " role="document">
+            <div class="modal-content">
+                <!-- <button type="button" class="close light" data-dismiss="modal" onclick="moengage.trackDismiss(); moengage.dismissMessage()" 
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+
+                <button type="button" class="close light" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                <div class="modal-body p-0" >
+                    <div id="carouselExampleIndicators" class="carousel slide bg-rhino rounded" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item slide1 active">
+                                <div class="px-3 text-white text-center py-5">
+                                    <div>
+                                        <img src="https://cdn.moengage.com/inapp/html-template4/assets/img/eastwood-come-back-later.png" width="250" class=" mw-100" alt="">
+
+                                    </div>
+
+                                    <h3 class="pt-2">Tired of Managing emails!</h3>
+                                    <p class="">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, non, quidem? Aliquid corporis cupiditate eius, eos eum
+                                    </p>
+                                    <p>
+                                        <a href="#" class="btn btn-cstm-light btn-cta" onclick="moengage.openRichLanding('https://www.moengage.com'); moengage.trackClick(1); moengage.dismissMessage()">get started</a>
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                            <div class="carousel-item slide2">
+                                <div class="px-3 text-white text-center py-5">
+                                    <div>
+                                        <img src="https://cdn.moengage.com/inapp/html-template4/assets/img/eastwood-sign-in.png" width="250" class=" mw-100" alt="">
+
+                                    </div>
+
+                                    <h3 class="pt-2">Skip the mainstream.</h3>
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, non, quidem? Aliquid corporis cupiditate eius, eos eum
+                                    </p>
+                                    <p>
+                                        <a href="#" class="btn btn-cstm-light btn-cta" onclick="moengage.openRichLanding('https://www.moengage.com/nativ/'); moengage.trackClick(2); moengage.dismissMessage()">get started</a>
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                            <div class="carousel-item slide3">
+                                <div class="px-3 text-white text-center py-5">
+                                    <div>
+                                        <img src="https://cdn.moengage.com/inapp/html-template4/assets/img/eastwood-done.png" width="250" class=" mw-100" alt="">
+
+                                    </div>
+
+                                    <h3 class="pt-2">Yo did it !! Bravo.</h3>
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, non, quidem? Aliquid corporis cupiditate eius, eos eum
+                                    </p>
+                                    <p>
+                                        <a href="#" class="btn btn-cstm-light btn-cta" onclick="moengage.openRichLanding('https://www.moengage.com/onsite-messaging/'); moengage.trackClick(3); moengage.dismissMessage();">get started</a>
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                            <div class="carousel-item slide4">
+                                <div class="px-3 text-white text-center py-5">
+                                    <div>
+                                        <img src="https://cdn.moengage.com/inapp/html-template4/assets/img/eastwood-sign-in.png" width="250" class=" mw-100" alt="">
+
+                                    </div>
+
+                                    <h3 class="pt-2">Skip the mainstream.</h3>
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, non, quidem? Aliquid corporis cupiditate eius, eos eum
+                                    </p>
+                                    <p>
+                                        <a href="#" class="btn btn-cstm-light btn-cta" onclick="moengage.openRichLanding('https://www.moengage.com/nativ/'); moengage.trackClick(2); moengage.dismissMessage()">get started</a>
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                            <div class="carousel-item slide5">
+                                <div class="px-3 text-white text-center py-5">
+                                    <div>
+                                        <img src="https://cdn.moengage.com/inapp/html-template4/assets/img/eastwood-done.png" width="250" class=" mw-100" alt="">
+
+                                    </div>
+
+                                    <h3 class="pt-2">Yo did it !! Bravo.</h3>
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, non, quidem? Aliquid corporis cupiditate eius, eos eum
+                                    </p>
+                                    <p>
+                                        <a href="#" class="btn btn-cstm-light btn-cta" onclick="moengage.openRichLanding('https://www.moengage.com/onsite-messaging/'); moengage.trackClick(3); moengage.dismissMessage();">get started</a>
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Ends -->
+
+
+
+
+<!--end content here-->
+<div id="image"></div>
+<script src="https://cdn.moengage.com/inapp/html-template4/assets/js/jquery.min.js"></script>
+<script src="https://cdn.moengage.com/inapp/html-template4/assets/js/popper.min.js"></script>
+<script src="https://cdn.moengage.com/inapp/html-template4/assets/bootstrap/js/bootstrap.min.js"></script>
+<div class="modal-backdrop show"></div>
+</body>
